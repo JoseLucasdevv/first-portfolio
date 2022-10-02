@@ -77,6 +77,7 @@
 }
 
 .gallery-img {
+
     width: 100%;
     max-width: 36rem;
     max-height: 36rem;
@@ -86,8 +87,12 @@
 }
 
 .gallery-img img {
-    height: 36rem;
-    width: 36rem;
+    border-radius: 0.8rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* height: 36rem; */
+    /* width: 36rem; */
     transition: all 300ms ease-in-out;
 }
 
@@ -330,5 +335,20 @@
     h2 {
         font-size: 3rem;
     }
+    .intro-content{
+        display: block;
+        
+    }
+    .intro-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-img img{
+        margin-bottom: 8rem;
+        width:60%;
+        
+    }
 
+    
 }

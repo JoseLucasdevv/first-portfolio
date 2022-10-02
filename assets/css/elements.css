@@ -32,6 +32,9 @@ h6 {
    font-family: 'Montserrat', sans-serif;
 
 }
+img{
+   max-width: 100%;
+}
 
 h1 {
    font-size: 6rem;
@@ -96,3 +99,4 @@ tfoot td,
 table th {
    background-color: var(--light-gray-color);
 }
+
