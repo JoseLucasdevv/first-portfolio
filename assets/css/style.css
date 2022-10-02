@@ -291,5 +291,8 @@ box-shadow:0 0 10px 2px var(--boxshadow-color);
     .menu-spacing{
         display: none;
     }
+    h2{
+       font-size: 4rem; 
+    }
     
 }
