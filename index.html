@@ -18,9 +18,9 @@
 </head>
 <body>
 <div class="modal">
-    <span id="btn-close">&times;</span>
     <div class="modal-content">
-        <img src="" alt="Exibindo Imagem que Você clicou" id="Modal-Img">
+        <img src="" alt="Exibindo Imagem que Você clicou" id="Modal-Img"> 
+        <span id="btn-close">&times;</span> 
     </div>
     
 </div>
@@ -48,7 +48,7 @@
 </aside>
 <div class="menu-spacing"></div>
 
-<section id="home" class="intro main-bg section">
+<section id="home" class="intro main-bg section section-media">
     <div class="main-content intro-content">
         <div class="intro-text-content">
             <h2>
@@ -79,15 +79,15 @@
         <div class="grid">
             <article>
                 <h3>Proativo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem earum temporibus atque dicta! Vero harum dolore libero cum, totam omnis amet possimus quos aliquid maiores delectus consequatur fugit ducimus?</p>
+                <p>Proatividade é a competência que impulsiona uma busca por mudanças de maneira espontânea, sem precisar de estímulos externos. Geralmente, as pessoas proativas têm uma boa visão de futuro, identificando necessidades e antecipando problemas, o que confere vantagens para sua equipe e empresa.</p>
             </article>
             <article>
                 <h3>Resiliente</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem earum temporibus atque dicta! Vero harum dolore libero cum, totam omnis amet possimus quos aliquid maiores delectus consequatur fugit ducimus?</p>
+                <p>A resiliência é a capacidade que todos temos de nos adaptar psicologicamente para enfrentar as situações menos favoráveis. É uma habilidade que nos permite explorar o limite das emoções, sem, contudo, rompê-la.</p>
             </article>
             <article>
                 <h3>Boa Comunicação</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem earum temporibus atque dicta! Vero harum dolore libero cum, totam omnis amet possimus quos aliquid maiores delectus consequatur fugit ducimus?</p>
+                <p>A comunicação garante com que consigamos transmitir nossas ideias e pensamentos, além de resolver nossos conflitos e ajudar na construção de uma carreira profissional de sucesso.</p>
             </article>
         </div>
 
@@ -104,7 +104,7 @@
         <h2 class="grid-main-heading">Galeria</h2>
         <p class="grid-description">Algumas das minhas fotos</p>
        
-        <div class="grid">
+        <div class="grid grid-gallery-content">
             
             <div class="gallery-img">
                 <img src="assets/img/Img-1.jpg" alt="Minha foto Número-1" class="img_gallery">
@@ -207,7 +207,7 @@
 </section>
 
 <section id="contact" class="intro main-bg section">
-    <div class="main-content intro-content">
+    <div class="main-content footer-content">
         <div class="intro-text-content">
             <h2>
                 Contato
@@ -218,7 +218,7 @@
             colaborando assim com meu crescimento profissional e
             com a instituição a qual fui engajado.<p>
         </div>
-        <div class="intro-img">
+        <div class="footer-img">
             <img src="assets/img/undraw_mobile_re_q4nk.svg" alt="Logo de Contato">
         </div>
         <form enctype="text/plain" action="mailto:joselucas.dev@gmail.com" method="POST"    class="contact-form">
@@ -226,22 +226,22 @@
                 <legend>Entre em contato</legend>
                 <div class="form-group">
                     <label for="first-name">Primeiro Nome</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Your Name" required>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your Name" required tabindex="1">
                 </div>
                 <div class="form-group">
                     <label for="last-name">Sobrenome</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Your Last Name" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your Last Name" required tabindex="2">
                 </div>
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Your E-mail" required>
+                        <input type="email" name="email" id="email" placeholder="Your E-mail" required tabindex="3">
                     </div>
                     <div class="form-group full-witdh">
                         <label for="message">Digite Sua Mensagem...</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message Here" required></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message Here" required tabindex="4"></textarea>
                     </div>
                     <div class="form-group full-witdh">
-                        <button type="submit">Enviar Mensagem</button>
+                        <button type="submit" tabindex="5">Enviar Mensagem</button>
                     </div>
             </fieldset>
         </form>
