@@ -98,10 +98,11 @@
     max-height: 36rem;
     overflow: hidden;
     display: flex;
-
+    
 }
 
 .gallery-img img {
+    
     border-radius: 0.8rem;
     height: 100%;
     width: 100%;
