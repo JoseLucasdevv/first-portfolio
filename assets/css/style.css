@@ -230,6 +230,12 @@
     color: var(--primary-color);
     transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color);
+    transition: all 300ms ease-in-out;
+}
+.back-to-top:hover{
+    background-color: var(--primary-color);
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
 }
 
 .modal {
